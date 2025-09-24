@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>HR Dashboard</title>
+    <link rel="stylesheet" th:href="@{/css/hr-styles.css}">
+</head>
+<body>
+<h2>HR Dashboard</h2>
+<div>
+    <p>Total Staff: <span th:text="${staffCount}"></span></p>
+    <p>Pending Leave Requests: <span th:text="${pendingLeavesCount}"></span></p>
+</div>
+<div>
+    <a th:href="@{/hr/leave/approvals}">Manage Leave Approvals</a><br>
+    <a th:href="@{/hr/reports}">View Reports</a>
+</div>
+</body>
+</html>
