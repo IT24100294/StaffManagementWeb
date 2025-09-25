@@ -17,7 +17,7 @@ public class HrDashboardController {
     public String showDashboard(Model model) {
         model.addAttribute("staffCount", hrService.getStaffCount());
         model.addAttribute("pendingLeavesCount", hrService.getPendingLeavesCount());
+        model.addAttribute("attendanceOverview", hrService.getAttendanceOverview());
         return "hr/hr-dashboard";
     }
-
 }

@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface LeaveRequestRepository extends JpaRepository<LeaveRequest, Long> {
     List<LeaveRequest> findByStatus(String status);
+    long countByStatus(String status); // Added to fix the error
 }

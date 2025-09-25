@@ -20,4 +20,9 @@ public class HrService {
     public long getPendingLeavesCount() {
         return leaveRequestRepository.countByStatus("PENDING");
     }
+
+    public String getAttendanceOverview() {
+        long totalStaff = staffRepository.count();
+        return "Attendance tracked for " + totalStaff + " staff (details TBD)";
+    }
 }
