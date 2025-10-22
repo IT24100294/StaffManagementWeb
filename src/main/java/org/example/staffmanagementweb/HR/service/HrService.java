@@ -4,6 +4,7 @@ import org.example.staffmanagementweb.HR.entity.Department;
 import org.example.staffmanagementweb.HR.entity.Employee;
 import org.example.staffmanagementweb.HR.entity.Role;
 import org.example.staffmanagementweb.HR.entity.User;
+import org.example.staffmanagementweb.HR.observer.EmployeeEventPublisher;
 import org.example.staffmanagementweb.HR.repository.DepartmentRepository;
 import org.example.staffmanagementweb.HR.repository.EmployeeRepository;
 import org.example.staffmanagementweb.HR.repository.RoleRepository;
@@ -29,6 +30,9 @@ public class HrService {
     @Autowired
     private RoleRepository roleRepository;
 
+    @Autowired
+    private EmployeeEventPublisher eventPublisher;
+
     // Get all employees
     public List<Employee> getAllEmployees() {
         return employeeRepository.findAll()
@@ -40,7 +44,15 @@ public class HrService {
 
     // Save (insert or update) employee
     public void saveEmployee(Employee employee) {
+        boolean isNewEmployee = employee.getEmployeeId() == null;
         employeeRepository.save(employee);
+        
+        // Notify observers based on operation type
+        if (isNewEmployee) {
+            eventPublisher.notifyEmployeeCreated(employee);
+        } else {
+            eventPublisher.notifyEmployeeUpdated(employee);
+        }
     }
 
     // Get employee by ID
@@ -132,6 +144,9 @@ public class HrService {
 
         employee.setIsActive(false);  // mark inactive instead of delete
         employeeRepository.save(employee);
+        
+        // Notify observers about employee deletion
+        eventPublisher.notifyEmployeeDeleted(employee);
     }
 
 
