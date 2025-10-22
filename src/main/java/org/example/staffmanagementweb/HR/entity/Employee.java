@@ -37,6 +37,8 @@ public class Employee {
     @JoinColumn(name = "user_id", referencedColumnName = "user_id")
     private User user;
 
+
+
     // Getters and Setters
     public Integer getEmployeeId() { return employeeId; }
     public void setEmployeeId(Integer employeeId) { this.employeeId = employeeId; }
@@ -56,4 +58,17 @@ public class Employee {
     public void setJobRole(String jobRole) { this.jobRole = jobRole; }
     public User getUser() { return user; }
     public void setUser(User user) { this.user = user; }
+
+
+    @Column(name = "is_active", nullable = false)
+    private Boolean isActive = true;
+
+    public Boolean getIsActive() {
+        return isActive;
+    }
+
+    public void setIsActive(Boolean isActive) {
+        this.isActive = isActive;
+    }
+
 }
