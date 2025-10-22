@@ -5,64 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bff57d20-a41d-4535-b6f9-70de30581407" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/config/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/HrApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/HrDashboardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/LeaveController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/PatternsDemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/ReportController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/StaffController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/StrategyDemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/dto/DashboardDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/dto/EmployeeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/dto/LeaveRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/LeaveRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/Staff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/observer/AuditLogObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/observer/EmailNotificationObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/observer/EmployeeEventPublisher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/observer/EmployeeObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/repository/DepartmentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/repository/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/repository/LeaveRequestRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/repository/StaffRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/service/DTOMapperService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/service/HrService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/service/LeaveService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/service/ReportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/strategy/AdminApprovalStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/strategy/HRApprovalStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/strategy/LeaveApprovalContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/strategy/LeaveApprovalStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/strategy/ManagerApprovalStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/StaffManagementWebApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SQLScript/StaffManagementSystem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/hr-styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/hr-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/add-staff.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/edit-staff.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/employees-dto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/hr-dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/leave-approvals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/patterns-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/landing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/staffmanagementweb/StaffManagementWebApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/HR/edit-staff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/HrDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/HrDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/controller/StaffController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/LeaveRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/entity/LeaveRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/service/HrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/service/HrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/service/LeaveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/staffmanagementweb/HR/service/LeaveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/add-staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/HR/add-staff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HR/hr-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/HR/hr-dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +36,7 @@
     <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="IT24100294" />
+        <entry key="$PROJECT_DIR$" value="Test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,43 +67,40 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="337TMu8FLjcQGTUCkrPpQU9X3uK" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.StaffManagementWebApplicationTests.executor": "Run",
-    "JavaScript Debug.hr-dashboard.html.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.StaffManagementWebApplication.executor": "Run",
-    "git-widget-placeholder": "Test",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Virul Akbo/OneDrive - Sri Lanka Institute of Information Technology/Y2S1/SE/PG54/StaffManagementWeb",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.StaffManagementWebApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.hr-dashboard.html.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.StaffManagementWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;IT24100294&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Virul Akbo/OneDrive - Sri Lanka Institute of Information Technology/Y2S1/SE/PG54/StaffManagementWeb&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="StaffManagementWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="StaffManagementWeb" />
@@ -200,7 +149,7 @@
       <workItem from="1760941127899" duration="820000" />
       <workItem from="1761095917533" duration="2547000" />
       <workItem from="1761116410130" duration="3471000" />
-      <workItem from="1761127569227" duration="474000" />
+      <workItem from="1761127020087" duration="445000" />
     </task>
     <servers />
   </component>
@@ -229,5 +178,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="jakarta.persistence.PersistenceException" package="jakarta.persistence" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
